@@ -67,7 +67,7 @@ img {
 .hero {
   background-color: #e0ebeb;
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .content-container {
@@ -108,7 +108,7 @@ img {
 }
 
 .content-container {
-  margin: 30px;
+  margin: 0 auto;
 }
 
 .hero p {
@@ -207,6 +207,16 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--primary-color);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+footer a:hover {
+  color: var(--accent-color);
 }
 
 @media (max-width: 960px) {

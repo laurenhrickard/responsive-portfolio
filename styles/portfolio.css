@@ -7,6 +7,12 @@
   --default-font-family: "Poppins", serif;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -45,7 +51,7 @@ img {
 .btn-branding {
   background-color: var(--accent-color);
   margin: 20px;
-  padding: 15px 30px;
+  padding: 10px 25px;
   color: var(--background-color);
   border-radius: 4px;
   font-size: 18px;
@@ -55,8 +61,8 @@ img {
 .btn-see-more {
   background-color: var(--background-color);
   margin: 20px auto;
-  width: 150px;
-  padding: 15px 30px;
+  width: 100px;
+  padding: 10px 25px;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
   border-radius: 4px;
@@ -67,7 +73,7 @@ img {
 .hero {
   background-color: #e0ebeb;
   text-align: center;
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 
 .content-container {
@@ -129,6 +135,7 @@ img {
 
 nav {
   padding: 20px;
+  overflow-x: hidden;
 }
 
 nav ul {
